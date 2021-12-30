@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+<script src="js/form.js"></script>
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
+   
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+
+<!--Add database config here below-->
+<script>
+  var firebaseConfig = {
+  apiKey: "AIzaSyBPHb9DK9d68sPzeru8-V6ajyjQ1DBaH6Q",
+  authDomain: "air-balloon-pro.firebaseapp.com",
+  databaseURL: "https://air-balloon-pro-default-rtdb.firebaseio.com",
+  projectId: "air-balloon-pro",
+  storageBucket: "air-balloon-pro.appspot.com",
+  messagingSenderId: "801232483881",
+  appId: "1:801232483881:web:583e4144bcef20b93f8e38"
+};
+
+firebase.initializeApp(firebaseConfig);
+</script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
